@@ -27,7 +27,7 @@
                 
 
 
-                $query = $conn->prepare("SELECT * FROM MYBOOK");//create table first
+                $query = $conn->prepare("SELECT * FROM MYBOOK");
 
                 $query->execute();
                 $row = $query->fetchAll();
@@ -41,6 +41,7 @@
                     <td> <?php echo $rowdata['author']; ?></td>
                     <td> <?php echo $rowdata['publishdate']; ?></td>  
                     <td> <img width=150 src="./images/<?php echo $rowdata['bookimage'];?>"> </td>
+                    <td><a href="delete.php?id=<?php echo $rowdata['id']; ?>"><button>delete</button></a></td>
                     </tr>   
                 <?php }?>
             </table>

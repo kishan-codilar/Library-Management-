@@ -9,8 +9,8 @@
    public $author;
    public $publishdate;
    public $bookimage;
-   public $data;
    public $conn;
+   public $data;
 
 
         public function insertion()

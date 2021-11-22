@@ -18,7 +18,7 @@
             </div>
             <div>       
                 <label>Published Date</label>
-                <input type = "text" name = "publishdate">
+                <input type = "date" name = "publishdate">
             </div>
             <div>
                 <label>Insert Image</label>
