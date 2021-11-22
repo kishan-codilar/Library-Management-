@@ -6,7 +6,7 @@
         <form action="storedata.php" method = "post">
             <div>
                 <label>ID</label>
-                <input type = "text" name = "id">
+                <input type = "number"  name = "id">
             </div>
             <div>
                 <label>Book Name</label>
